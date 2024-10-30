@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #6c9592;
+            /* Change this to any color you like */
+        }
+
+        .business-card {
+            background-color: #4b418b;
+            /* Card background color */
+            border: 1px solid #161515fd;
+            /* Border color */
+            border-radius: 10px;
+            /* Rounded corners */
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(137, 64, 12, 0.1);
+            /* Shadow effect */
+            width: 300px;
+            /* Width of the card */
+            text-align: center;
+            /* Center the text */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            /* Size of the name */
+        }
+
+        p {
+            margin: 5px 0;
+            /* Spacing between paragraphs */
+            color: #990f0f;
+            /* Blue */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="business-card">
+        <div class="card-header">
+            <h1>Shashank Shekhar</h1>
+            <p>Web Developer</p>
+        </div>
+        <div class="card-body">
+            <p><strong>Email:</strong> pandayravi555@gmail.com</p>
+            <p><strong>Phone:</strong> 9569823276</p>
+        </div>
+        <div class="card-footer">
+            <p>LinkedIn: linkedin.com/in/Shashank shekhar pandey</p>
+        </div>
+    </div>
+</body>
+
+</html>
