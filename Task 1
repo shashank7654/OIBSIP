@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Flyer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9b997;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .flyer {
+            background-color: #de5bb5;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4d3274;
+        }
+
+        .date {
+            text-align: center;
+            font-size: 20px;
+            margin: 10px 0;
+            color: #4d3274;
+        }
+
+        .description {
+            margin: 20px 0;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #a31515;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #bbdd5b;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flyer">
+        <h1>Community Yoga Day</h1>
+        <div class="date">Saturday, October 28, 2024</div>
+        <img
+            src="https://img.freepik.com/premium-photo/international-yoga-day-poster_1177960-20805.jpg?size=626&ext=jpg">
+        <div class="description">
+            Join us for a day of relaxation and mindfulness in the park!
+            Enjoy yoga sessions led by experienced instructors, meditation classes, and healthy snacks.
+        </div>
+        <div class="contact">
+            <p>For more information, contact us:</p>
+            <p>Email: <a href="pandayravi555@gmai.com">pandayravi555@gmai.com</a></p>
+            <p>Phone: <a href="tel:9569823276">9569823276</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
