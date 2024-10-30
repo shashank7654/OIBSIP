@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> Sundar pichai</title>
+    <style>
+        /* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fa1717;
+        }
+
+        .infographic {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgb(157, 143, 232);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .infographic h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 20px;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .icon {
+            flex: 0 0 100px;
+            /* Fixed width for icons */
+            text-align: center;
+        }
+
+        .icon img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .data {
+            flex: 1;
+            /* Remaining space */
+            padding-left: 20px;
+            /* Space between icon and text */
+        }
+
+        .data h2 {
+            color: #007BFF;
+            margin: 0 0 10px;
+        }
+
+        .data p {
+            color: #555;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="infographic">
+        <h1>Sundar pichai</h1>
+        <div class="section">
+            <div class="icon"><img src="c:\Users\panda\Downloads\Sundar-Pichai-Education-800x500.jpg" alt="Icon 1">
+            </div>
+            <div class="data">
+                <h2> Early Life & Education</h2>
+                <p>Pichai was born in Madurai, Tamil Nadu, India. His mother, Lakshmi, was a stenographer, and his
+                    father, Regunatha Pichai, was an electrical engineer at GEC, the British conglomerate.
+                    Pichai completed schooling in Jawahar Vidyalaya Senior Secondary School in Ashok Nagar, Chennai and
+                    completed the Class XII from Vana Vani school at IIT Madras.s He earned his degree from IIT
+                    Kharagpur in metallurgical engineering and is a distinguished alumnus from that institution. He
+                    holds an M.S. from Stanford University in materials science and engineering, and an MBA from the
+                    Wharton School of the University of Pennsylvania,where he was named a Siebel Scholar and a Palmer
+                    Scholar, respectively.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="icon"><img
+                    src="c:\Users\panda\Downloads\Sundar_Pichai_-_SVP,_Android,_Chrome_and_Apps,_Google.jpg"
+                    alt="Icon 2"></div>
+            <div class="data">
+                <h2>Carrier</h2>
+                <p>Pichai worked in engineering and product management at Applied Materials and in management consulting
+                    at McKinsey & Company.Pichai joined Google in 2004, where he led the product management and
+                    innovation efforts for a suite of Google's client software products, including Google Chrome and
+                    ChromeOS, as well as being largely responsible for Google Drive. He went on to oversee the
+                    development of other applications such as Gmail and Google Maps. On November 19, 2009, Pichai gave a
+                    demonstration of ChromeOS; the Chromebook was released for trial and testing in 2011, and released
+                    to the public in 2012.[29] On May 20, 2010, he announced the open-sourcing of the new video codec
+                    VP8 by Google and introduced the new video format, WebM.
+
+                    On March 13, 2013, Pichai added Android to the list of Google products that he oversaw. Android was
+                    formerly managed by Andy Rubin, who was a director of Jive Software from April 2011 to July 30,
+                    2013.Pichai was selected to become the next CEO of Google on August 10, 2015,after previously being
+                    appointed Product Chief by CEO, Larry Page. On October 24, 2015, he stepped into the new position at
+                    the completion of the formation of Alphabet Inc., the new holding company for the Google company
+                    family.
+
+                    Pichai had been suggested as a contender for Microsoft's CEO in 2014, a position that was eventually
+                    given to Satya Nadella. In August 2017, Pichai drew publicity for firing a Google employee who wrote
+                    a ten-page manifesto criticizing the company's pro-diversity policies.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="icon"><img src="c:\Users\panda\Downloads\pichia-1.webp" alt="Icon 3"></div>
+            <div class="data">
+                <h2>Achievement </h2>
+                <p>In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry from the Government
+                    of India, the country's third-highest civilian award</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
