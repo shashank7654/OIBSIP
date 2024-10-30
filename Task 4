@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Magazine Brochure</title>
+    <style>
+        /* styles.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #928cef;
+        }
+
+        .magazine {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #928cef;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .cover {
+            text-align: center;
+            background-color: #db1818;
+            color: rgb(221, 236, 52);
+            padding: 50px 20px;
+        }
+
+        .toc {
+            margin: 20px 0;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .toc ul li {
+            margin: 10px 0;
+        }
+
+        .toc ul li a {
+            text-decoration: none;
+            color: rgb(221, 236, 52);
+        }
+
+        .article {
+            margin: 20px 0;
+        }
+
+        .article img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="magazine">
+        <!-- Cover Page -->
+        <div class="cover">
+            <h1>CRICKET 2024</h1>
+            <p> Keep You Always Updated</p>
+        </div>
+
+        <!-- Table of Contents -->
+        <div class="toc">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="T20 world cup 2024">T20 world cup 2024</a></li>
+                <li><a href="England tour of Pakistan">England tour of Pakistan</a></li>
+                <li><a href="Border Gavasker trophy">Border Gavasker trophy</a></li>
+            </ul>
+        </div>
+
+        <!-- Articles -->
+        <div class="T20 World cup 2024" id="T20 World cup 2024">
+            <h2>T20 World cup 2024</h2>
+            <p>India was the new t20 world champion. India beats southafrica in very close match by just 7 runs.
+                India was unbeaten altrough the worldcup .In the word of well known cricket expert3 Harsha bhogle Indian
+                side dominate the world cup without any hesitation
+            </p>
+            <img src="c:\Users\panda\Downloads\t20 world cup.jpg" alt="Placeholder Image">
+        </div>
+
+        <div class="England tour of Pak" id="England tour of Pak">
+            <h2>England tour of Pak</h2>
+            <p>England cricket team is on pakistan tour where they paticipate in bilateral series against pakistan.</p>
+            <img src="c:\Users\panda\Downloads\pakistan-vs-england-3rd-test-day-1-karachi.webp" alt="Placeholder Image">
+        </div>
+
+        <div class="Border Gavasker trophy" id="Border Gavasker trophy3">
+            <h2>Border Gavasker trophy</h2>
+            <p>The most awaited test rivalary of the decade begins from 25 november when India tours for Australlia . l
+                last time when india visit Australlia for test series that was hestoric in so many ways.
+            </p>
+            <img src="c:\Users\panda\Downloads\bordergavaskartrophy030119_0_0_0.webp" alt="Placeholder Image">
+        </div>
+    </div>
+
+</body>
+
+</html>
